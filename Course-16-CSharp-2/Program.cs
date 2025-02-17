@@ -30,6 +30,7 @@ namespace Course_16_CSharp_2
             Abdullah.LastName = "Al-Shehri";
 
             Abdullah.GetFullName();
+
         }
     }
 }

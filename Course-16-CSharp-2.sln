@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course-16-CSharp-2", "Cours
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{E87AB6C0-AF9E-415A-A022-39C7B51508EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMembers", "StaticMembers\StaticMembers.csproj", "{7B1F34FB-34D6-451A-92D5-F2F187419157}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E87AB6C0-AF9E-415A-A022-39C7B51508EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E87AB6C0-AF9E-415A-A022-39C7B51508EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E87AB6C0-AF9E-415A-A022-39C7B51508EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1F34FB-34D6-451A-92D5-F2F187419157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1F34FB-34D6-451A-92D5-F2F187419157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1F34FB-34D6-451A-92D5-F2F187419157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1F34FB-34D6-451A-92D5-F2F187419157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

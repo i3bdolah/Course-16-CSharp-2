@@ -9,16 +9,12 @@ namespace SettersAndGetters
 {
     class clsPerson
     {
-        private int _id;
+        private int _id = 3;
         private string _name;
         private int _age;
 
         public int id
         {
-            set
-            {
-                _id = value;
-            }
             get
             {
                 return _id;
@@ -60,7 +56,7 @@ namespace SettersAndGetters
         {
             clsPerson person1 = new clsPerson();
 
-            person1.id = 1;
+            //person1.id = 1;
             person1.name = "Abdullah Ban";
             person1.age = 24;
 

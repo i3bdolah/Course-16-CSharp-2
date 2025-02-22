@@ -13,35 +13,9 @@ namespace SettersAndGetters
         private string _name;
         private int _age;
 
-        public int id
-        {
-            get
-            {
-                return _id;
-            }
-        }
-        public string name
-        {
-            set
-            {
-                _name = value;
-            }
-            get
-            {
-                return _name;
-            }
-        }
-        public int age
-        {
-            set
-            {
-                _age = value;
-            }
-            get
-            {
-                return _age;
-            }
-        }
+        public int id { get; }
+        public string name { set; get; }
+        public int age { set; get; }
 
         public void printDetails()
         {

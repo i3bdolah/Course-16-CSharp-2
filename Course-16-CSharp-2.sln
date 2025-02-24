@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettersAndGetters", "Setter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClass", "StaticClass\StaticClass.csproj", "{EA02E274-6CAD-4226-8680-A610C9508738}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorProject", "CalculatorProject\CalculatorProject.csproj", "{00AAC4CD-D04A-40FC-83F0-71949718E587}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EA02E274-6CAD-4226-8680-A610C9508738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA02E274-6CAD-4226-8680-A610C9508738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA02E274-6CAD-4226-8680-A610C9508738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00AAC4CD-D04A-40FC-83F0-71949718E587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AAC4CD-D04A-40FC-83F0-71949718E587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AAC4CD-D04A-40FC-83F0-71949718E587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AAC4CD-D04A-40FC-83F0-71949718E587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

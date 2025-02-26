@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClass", "StaticClass\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorProject", "CalculatorProject\CalculatorProject.csproj", "{00AAC4CD-D04A-40FC-83F0-71949718E587}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorAndDestructor", "ConstructorAndDestructor\ConstructorAndDestructor.csproj", "{34A7FC39-DFFD-4850-BF64-AC8A77400F6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{00AAC4CD-D04A-40FC-83F0-71949718E587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00AAC4CD-D04A-40FC-83F0-71949718E587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00AAC4CD-D04A-40FC-83F0-71949718E587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A7FC39-DFFD-4850-BF64-AC8A77400F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A7FC39-DFFD-4850-BF64-AC8A77400F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A7FC39-DFFD-4850-BF64-AC8A77400F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A7FC39-DFFD-4850-BF64-AC8A77400F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

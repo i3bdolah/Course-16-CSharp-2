@@ -19,6 +19,12 @@ namespace ConstructorAndDestructor
             this.Name = Name; 
             this.Description = Description; 
         }
+
+
+        // This is how the (Constructor) is behind the scenes!
+        //public clsEmployee()
+        //{
+        //}
     }
     internal class Program
     {

@@ -13,18 +13,18 @@ namespace ConstructorAndDestructor
         public string Name { get; set; }
         public string Description { get; set; }
 
-        public clsEmployee()
+        public clsEmployee(int Id, string Name, string Description)
         {
-            Id = 1;
-            Name = "Unknown";
-            Description = "Unknown";
+            this.Id = Id;
+            this.Name = Name; 
+            this.Description = Description; 
         }
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-            clsEmployee employee = new clsEmployee();
+            clsEmployee employee = new clsEmployee(158, "Abdullah", "Software Engineer");
             Console.WriteLine(employee.Id);
             Console.WriteLine(employee.Name);
             Console.WriteLine(employee.Description);

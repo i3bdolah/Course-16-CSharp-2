@@ -7,33 +7,44 @@ using System.Threading.Tasks;
 namespace ConstructorAndDestructor
 {
 
-    class clsEmployee
+    //static class Settings
+    class Settings
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-
-        public clsEmployee(int Id, string Name, string Description)
+        public static int DayNumber
         {
-            this.Id = Id;
-            this.Name = Name; 
-            this.Description = Description; 
+            get
+            {
+                return DateTime.Today.Day;
+            }
         }
 
+        public static string DayName
+        {
+            get
+            {
+                return DateTime.Today.DayOfWeek.ToString();
+            }
+        }
 
-        // This is how the (Constructor) is behind the scenes!
-        //public clsEmployee()
+        public static string ProjectPath
+        {
+            get;
+            set;
+        }
+
+        //private Settings()
         //{
+
         //}
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-            clsEmployee employee = new clsEmployee(158, "Abdullah", "Software Engineer");
-            Console.WriteLine(employee.Id);
-            Console.WriteLine(employee.Name);
-            Console.WriteLine(employee.Description);
+            Settings aa = new Settings();
+
+            Console.WriteLine(Settings.DayNumber);
+            Console.WriteLine(Settings.DayName);
         }
     }
 }

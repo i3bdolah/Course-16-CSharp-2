@@ -7,24 +7,18 @@ using System.Threading.Tasks;
 namespace ConstructorAndDestructor
 {
 
-    class clsEmployee
+    class Settings
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
 
-        public clsEmployee(int Id, string Name, string Description)
+        //this is a static constructor will be called once during the program
+        static Settings()
         {
-            this.Id = Id;
-            this.Name = Name;
-            this.Description = Description;
+            Console.WriteLine("Im Static Constractor");
         }
 
-        public clsEmployee()
+        public Settings()
         {
-            this.Id = 0;
-            this.Name = "Name";
-            this.Description = "Description";
+            Console.WriteLine("Im Not Static Constractor");
         }
     }
 
@@ -32,17 +26,10 @@ namespace ConstructorAndDestructor
     {
         static void Main(string[] args)
         {
-            clsEmployee employee1 = new clsEmployee(158, "Abdullah", "Software Engineer");
-            Console.WriteLine(employee1.Id);
-            Console.WriteLine(employee1.Name);
-            Console.WriteLine(employee1.Description);
-
-            Console.WriteLine();
-
-            clsEmployee employee2 = new clsEmployee();
-            Console.WriteLine(employee2.Id);
-            Console.WriteLine(employee2.Name);
-            Console.WriteLine(employee2.Description);
+            Settings settings1 = new Settings();
+            Settings settings2 = new Settings();
+            Settings settings3 = new Settings();
+            Settings settings4 = new Settings();
         }
     }
 }

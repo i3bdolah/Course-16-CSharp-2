@@ -8,6 +8,14 @@ namespace Inheritance
 {
     public class clsPerson
     {
+        public clsPerson(int ID, string FirstName, string LastName, string Title)
+        {
+            this.ID = ID;
+            this.FirstName = FirstName;
+            this.LastName = LastName;
+            this.Title = Title;
+        }
+
         //properties
         public int ID { get; set; }
         public string FirstName { get; set; }
@@ -23,6 +31,15 @@ namespace Inheritance
 
     public class clsEmployee : clsPerson
     {
+        public clsEmployee(float Salary, string DepartmentName, // معاملات الفئة المشتقة
+            int ID, string FirstName, string LastName, string Title) // معاملات الفئة الأساسية
+            : base(ID, FirstName, LastName, Title) // تهريب أو تمرير معاملات الفئة الأساسية
+        {
+            this.Salary = Salary;
+            this.DepartmentName = DepartmentName;
+        }
+
+
         //properties
         public float Salary { set; get; }
         public string DepartmentName { get; set; }

@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpcastingAndDowncasting", "UpcastingAndDowncasting\UpcastingAndDowncasting.csproj", "{542C1945-20CD-4823-9B59-331BCE52674D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverriding", "MethodOverriding\MethodOverriding.csproj", "{10E74B7F-AE68-48E5-88A2-AC0B5682A481}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{542C1945-20CD-4823-9B59-331BCE52674D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{542C1945-20CD-4823-9B59-331BCE52674D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{542C1945-20CD-4823-9B59-331BCE52674D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E74B7F-AE68-48E5-88A2-AC0B5682A481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E74B7F-AE68-48E5-88A2-AC0B5682A481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E74B7F-AE68-48E5-88A2-AC0B5682A481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E74B7F-AE68-48E5-88A2-AC0B5682A481}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

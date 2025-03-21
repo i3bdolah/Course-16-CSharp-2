@@ -11,11 +11,11 @@ namespace MethodHiding
     {
         public virtual void PrintOverride()
         {
-            Console.WriteLine("Im Class A !");
+            Console.WriteLine("Im The BASE Class");
         }
         public virtual void PrintNew()
         {
-            Console.WriteLine("Im Class A !");
+            Console.WriteLine("Im The BASE Class");
         }
 
     }
@@ -24,11 +24,11 @@ namespace MethodHiding
     {
         public override void PrintOverride()
         {
-            Console.WriteLine("Im Class B !");
+            Console.WriteLine("Derived Class Implemented By OVERRIDE");
         }
         public new void PrintNew()
         {
-            Console.WriteLine("Im Class B !");
+            Console.WriteLine("Derived Class Implemented By NEW");
         }
     }
 

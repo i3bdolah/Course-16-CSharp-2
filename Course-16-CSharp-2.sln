@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodHiding", "MethodHidin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLevelInheritance", "MultiLevelInheritance\MultiLevelInheritance.csproj", "{941B1AAC-5734-4634-8654-55FFE43B8F7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hierarchal Inheritance", "Hierarchal Inheritance\Hierarchal Inheritance.csproj", "{2AACFB52-6F5D-40B0-B8C4-B71A5278A25C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{941B1AAC-5734-4634-8654-55FFE43B8F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{941B1AAC-5734-4634-8654-55FFE43B8F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{941B1AAC-5734-4634-8654-55FFE43B8F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AACFB52-6F5D-40B0-B8C4-B71A5278A25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AACFB52-6F5D-40B0-B8C4-B71A5278A25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AACFB52-6F5D-40B0-B8C4-B71A5278A25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AACFB52-6F5D-40B0-B8C4-B71A5278A25C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,26 +9,27 @@ namespace Composition
 
     public class clsA
     {
-        public void MyMethod()
+        public virtual void Print()
         {
-            Console.WriteLine("Im the method of clsA");
+            Console.WriteLine("Im Printing from clsA");
         }
     }
 
-    sealed public class clsB
+    public class clsB : clsA
     {
-        public void MyMethod()
+        public sealed override void Print()
         {
-            clsA classA = new clsA();
-            Console.WriteLine("From class B");
-            classA.MyMethod();
+            Console.WriteLine("Im Printing from clsB");
         }
 
     }
 
     public class clsC : clsB
     {
-
+        //public override void Print()
+        //{
+        //    Console.WriteLine("Im Printing from clsB");
+        //}
     }
 
 
@@ -37,10 +38,13 @@ namespace Composition
         static void Main(string[] args)
         {
             clsA clsA = new clsA();
-            clsA.MyMethod();
+            clsA.Print();
 
             clsB clsB = new clsB();
-            clsB.MyMethod();
+            clsB.Print();
+
+            clsC clsC = new clsC();
+            clsC.Print();
         }
     }
 }

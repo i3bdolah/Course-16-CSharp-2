@@ -15,7 +15,7 @@ namespace Composition
         }
     }
 
-    public class clsB
+    sealed public class clsB
     {
         public void MyMethod()
         {
@@ -23,6 +23,11 @@ namespace Composition
             Console.WriteLine("From class B");
             classA.MyMethod();
         }
+
+    }
+
+    public class clsC : clsB
+    {
 
     }
 

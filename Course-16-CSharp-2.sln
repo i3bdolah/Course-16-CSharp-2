@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedClasses", "NestedClas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\Composition.csproj", "{6A13CD89-B470-4652-9E01-3A8038267FE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClass", "PartialClass\PartialClass.csproj", "{12E30F1D-805C-4D4F-9F7D-C7FAE797750C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{6A13CD89-B470-4652-9E01-3A8038267FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A13CD89-B470-4652-9E01-3A8038267FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A13CD89-B470-4652-9E01-3A8038267FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E30F1D-805C-4D4F-9F7D-C7FAE797750C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E30F1D-805C-4D4F-9F7D-C7FAE797750C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E30F1D-805C-4D4F-9F7D-C7FAE797750C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E30F1D-805C-4D4F-9F7D-C7FAE797750C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
